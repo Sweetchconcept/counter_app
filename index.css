@@ -1,0 +1,51 @@
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 62.5%; */
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    text-align: center;
+}
+
+.counter-div {
+    background: lightblue;
+    border-radius: 5px;
+    margin: 0;
+    padding: 10px;
+}
+
+.counter {
+    color: #fff;
+    font-weight: bold;
+}
+
+.button button {
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.subtract {
+    color: #fff;
+    background: orangered;
+}
+
+.reset {
+    color: #000;
+    background: #fff;
+}
+
+.add {
+    color: #fff;
+    background: green;
+}
+
